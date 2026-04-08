@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code chiffré - Chiffrage</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <p class="a">Chiffrage / Déchiffrage</p>
+
+    <fieldset class="l">
+        <legend>Zone de texte</legend>
+        <div class="w">Entrez votre texte ci-dessous :</div>
+        <input type="text" placeholder="Entrez le texte..." id="t" class="q">
+    </fieldset>
+
+    <div class="btn-row">
+        <button onclick="cod()">Chiffrer</button>
+        <button onclick="dec()">Déchiffrer</button>
+        <button onclick="cop()">Copier</button>
+    </div>
+
+    <fieldset>
+        <legend>Résultat</legend>
+        <div class="h" id="tex"></div>
+    </fieldset>
+</body>
+</html>
